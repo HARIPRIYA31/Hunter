@@ -10,8 +10,8 @@ public class PrintChar
     int num=0;
     for(int i=0;i<str.length();i+=2)
 {
-value=s1.charAt(i);
-num=Character.getNumericValue(s1.charAt(i+1));
+value=str.charAt(i);
+num=Character.getNumericValue(str.charAt(i+1));
        for(int j=0;j<num;j++)
          System.out.print(value);
        }
