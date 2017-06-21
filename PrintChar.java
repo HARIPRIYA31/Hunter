@@ -5,7 +5,7 @@ public class PrintChar
   { 
      Scanner sc=new Scanner(System.in);
      System.out.println("ENTER THE STRING");
-    String str=sc.nextLine();
+    String str=sc.next();
     char value=' ';
     int num=0;
     for(int i=0;i<str.length();i+=2)
