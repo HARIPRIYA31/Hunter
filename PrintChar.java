@@ -10,7 +10,7 @@ public class PrintChar
     String value="";
      for(int i=0;i<n;i=i+2)
      {
-       value=sc.next();
+       value=sc.nextLine();
        num=sc.nextInt();
        if(num!=0)
        {
