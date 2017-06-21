@@ -17,12 +17,13 @@ public class onenorepeat
      {
        if(arr[j]==arr[k] && j!=k)
           count++;
+     }
        if(count==0)
         {
           System.out.println(arr[j]);
           break;
          }
-        }
+        
         }
      }
 }
