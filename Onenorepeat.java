@@ -15,16 +15,15 @@ public class onenorepeat
    for(int j=0;j<size;j+=2)
    {
      if(j<size-1)
+     
      {
-     for(int k=j+1;k<size;k++)
-     {
-       if(arr[j]!=arr[k])
+       if(arr[j]!=arr[j+1])
        {
           System.out.println(arr[j]);
           break;
          }
         
-        }
+     }
      }
      }
 }
