@@ -7,7 +7,7 @@ public class PrintChar
      System.out.println("ENTER THE STRING LENGTH");
      int n=sc.nextInt();
     int num=0;
-    char value="";
+    char value=' ';
      for(int i=0;i<n;i=i+2)
      {
        value=sc.nextLine();
