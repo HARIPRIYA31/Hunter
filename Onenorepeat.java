@@ -11,20 +11,21 @@ public class onenorepeat
     int arr[]=new int[size];
     for(int i=0;i<size;i++)
        arr[i]=sc.nextInt();
-   for(int j=0;j<size;j++)
+    Arrays.sort(arr);
+   for(int j=0;j<size;j+=2)
    {
-     for(int k=0;k<size;k++)
+     if(j<size-1)
      {
-       if(arr[j]==arr[k] && j!=k)
-          count++;
-     }
-       if(count==0)
-        {
+     for(int k=j+1;k<size;k++)
+     {
+       if(arr[j]!=arr[k])
+       {
           System.out.println(arr[j]);
           break;
          }
         
         }
+     }
      }
 }
 
