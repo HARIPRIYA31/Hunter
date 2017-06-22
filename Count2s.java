@@ -15,7 +15,7 @@ public class Count2s
          String str=String.valueOf(arr[j]);
          for(int i=0;i<str.length();i++)
          {
-           if(str.charAt(i).contains("2"))
+           if(str.charAt(i)=='2')
               count++;
          }
        }
