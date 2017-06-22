@@ -13,8 +13,11 @@ public class Count2s
       for(int j=0;j<size;j++)
       {
          String str=String.valueOf(arr[j]);
-         if(str.contains("2"))
-            count++;
+         for(int i=0;i<str.length();i++)
+         {
+           if(str.charAt(i).contains("2"))
+              count++;
+         }
        }
        System.out.println("NO. OF 2s:"+count);
     }
